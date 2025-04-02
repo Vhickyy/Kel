@@ -48,7 +48,7 @@ export default function Home() {
         {/* book and class advert */}
 
         <section className="relative mt-[5rem] md:mt-[12rem] text-white w-[90%] lg:w-[85%] mx-auto">
-          <p className="text-white text-center text-5xl">Projects</p>
+          <p className="text-white text-center text-3xl md:text-5xl">Projects</p>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-[3rem] md:mt-[5rem]">
             {designs.map((item,index) => (
               <div className="w-full h-auto" key={index}>
@@ -58,8 +58,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative mt-[12rem] text-white">
-          <p className="text-white text-center text-5xl">Reviews</p>
+        <section className="relative mt-[5rem] md:mt-[12rem] text-white">
+          <p className="text-white text-center text-3xl md:text-5xl">Reviews</p>
           <div className="flex flex-col md:flex-row justify-between gap-8 w-[90%] lg:w-[85%] mx-auto mt-[5rem]">
             <div className="w-full p-4 shadow-[0_5px_15px_rgba(254,227,2,0.5)] rounded-lg">
               <video className="w-full h-auto rounded-lg shadow-lg" controls>
@@ -75,8 +75,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative mt-[12rem] text-white">
-          <p className="text-white text-center text-5xl">Contact Me</p>
+        <section className="relative mt-[5rem] md:mt-[12rem] text-white">
+          <p className="text-white text-center text-3xl md:text-5xl">Contact Me</p>
           <p className="flex justify-between gap-4 w-[90%] lg:w-[85%] mx-auto my-[5rem]">Want to grow your buisness or want to become a canva design guru? Connect with me on: arrow to links</p>
         </section>
       </main>
