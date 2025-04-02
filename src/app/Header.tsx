@@ -41,7 +41,7 @@ const Header = () => {
             </aside>
 
             <aside className="relative">
-              <div className="border-[1.5rem] border-[#fee302] w-[15rem] lg:w-[20rem] xl:w-[24rem]  h-[28rem] xl:h-[32rem] rounded-full overflow-clip shadow-[0_5px_15px_rgba(254,227,2,0.5)]">
+              <div className="border-[1.5rem] border-[#fee302] w-[15rem] lg:w-[20rem] xl:w-[24rem] h-[20rem]  md:h-[28rem] xl:h-[32rem] rounded-full overflow-clip shadow-[0_5px_15px_rgba(254,227,2,0.5)]">
                 <Image src={Kel} alt="Kelechi-Austin-Okorie" className="w-full h-full object-cover" />
               </div>
               <div className="bg-[#fee302] blur-md rounded-l-full absolute bottom-0 w-full z-[-10] h-6">
