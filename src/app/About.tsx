@@ -15,23 +15,23 @@ const About = () => {
         setHover(null)
     }
   return (
-    <section className="relative mt-[12rem]">
-          <div className=" absolute left-0 w-[1.8rem] flex flex-col justify-around h-[28rem]">
+    <section className="relative mt-[5rem] md:mt-[12rem]">
+          <div className="hidden  absolute left-0 w-[1.8rem] md:flex flex-col justify-between h-[15rem] top-1">
             <div className="bg-[#fee302] h-5 w-full"></div>
             <div className="bg-[#fee302] h-5 w-full"></div>
             <div className="bg-[#fee302] h-5 w-full"></div>
             <div className="bg-[#fee302] h-5 w-full"></div>
             <div className="bg-[#fee302] h-5 w-full"></div>
           </div>
-          <div className="absolute flex w-[20%] justify-around left-0">
-            <div className="bg-[#fee302] h-5  w-[1.8rem]"></div>
-            <div className="bg-[#fee302] h-5  w-[1.8rem]"></div>
-            <div className="bg-[#fee302] h-5  w-[1.8rem]"></div>
-            <div className="bg-[#fee302] h-5  w-[1.8rem]"></div>
-            <div className="bg-[#fee302] h-5  w-[1.8rem]"></div>
+          <div className="absolute flex w-[20%] md:w-[15rem] justify-between left-0 top-1">
+            <div className="bg-[#fee302] h-5  w-[1rem] md:w-[1.8rem]"></div>
+            <div className="bg-[#fee302] h-5  w-[1rem] md:w-[1.8rem]"></div>
+            <div className="bg-[#fee302] h-5  w-[1rem] md:w-[1.8rem]"></div>
+            <div className="bg-[#fee302] h-5  w-[1rem] md:w-[1.8rem]"></div>
+            <div className="bg-[#fee302] h-5  w-[1rem] md:w-[1.8rem]"></div>
           </div>
-          <p className="text-white text-center text-5xl">About Me</p>
-          <aside className="w-[90%] lg:w-[85%]  mx-auto mt-[5rem]">
+          <p className="text-white text-center text-3xl md:text-5xl">About Me</p>
+          <aside className="w-[90%] lg:w-[85%]  mx-auto mt-[3rem] md:mt-[5rem]">
 
             <div className="flex flex-col lg:flex-row gap-10 h-auto">
               <div className="lg:w-[55%] h-auto">

@@ -21,7 +21,7 @@ const Header = () => {
         </nav>
 
         <section className="relative mt-[2rem] md:mt-[4rem] w-full">
-          <div className=" absolute right-0 w-[1.8rem] flex flex-col justify-around h-[28rem]">
+          <div className=" absolute right-0 w-[1.8rem] flex flex-col justify-around h-[20rem]">
             <div className="bg-[#fee302] h-5 w-full"></div>
             <div className="bg-[#fee302] h-5 w-full"></div>
             <div className="bg-[#fee302] h-5 w-full"></div>

@@ -47,9 +47,9 @@ export default function Home() {
 
         {/* book and class advert */}
 
-        <section className="relative mt-[12rem] text-white w-[90%] lg:w-[85%] mx-auto">
+        <section className="relative mt-[5rem] md:mt-[12rem] text-white w-[90%] lg:w-[85%] mx-auto">
           <p className="text-white text-center text-5xl">Projects</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-[3rem] md:mt-[5rem]">
             {designs.map((item,index) => (
               <div className="w-full h-auto" key={index}>
                 <Image src={item.img} alt={item.name} className="w-full md:h-[20rem] object-cover" />
